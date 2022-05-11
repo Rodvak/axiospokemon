@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
 
-      <PokemonForm fetchWithAxios = {fetchWithAxios} pokemons = {pokemons} />
+      <PokemonForm fetchWithAxios = {fetchWithAxios} />
       <Display pokemons = {pokemons}/>
 
     </div>

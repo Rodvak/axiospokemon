@@ -14,8 +14,8 @@ const Display = (props) => {
 
 
                 <p className='fw-bold m-4' key={i}>
-                    {pokemon.name}
-                {/* <img src={pokemon.sprites.front_default} /> */}
+                    {pokemon.name} 
+                {/* <img src={pokemon.sprites.front_default}alt='' /> */}
                 </p>
             )
         })
